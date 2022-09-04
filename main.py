@@ -15,7 +15,7 @@ if file1 is not None and file2 is not None:
     current = pd.read_csv(file2)
 
     ROOTDOMAIN = url
-    # Converting DF to Lists
+    # Converting DF to List
 
     broken_list = broken["URL"].tolist()
     broken_list = [sub.replace(ROOTDOMAIN, '') for sub in broken_list]
