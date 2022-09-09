@@ -6,6 +6,7 @@ st.title('Python URL / Redirect Mapping Tool')
 st.subheader('Directions:')
 st.write('- Upload complete crawl \n - Upload a list of 404s in.CSV format (URL column named URL) \n - Would not '
          'recommend with over 10k URLs (very slow) ')
+st.write(' Note: If similarity is less than 0.8, It required human validation')
 st.write("Author - [Venkata Pagadala](https://www.linkedin.com/in/venkata-pagadala/)")
 
 # Importing the URL CSV files
